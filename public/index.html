@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+<!-- Bootstrap 4 CDN - Copied from https://v4-alpha.getbootstrap.com/  -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Alegreya|Cardo:400,400i|Muli:300i,400" rel="stylesheet">
+<!-- OPTIONAL:  To lighten the page by about 30k, remove the ",400i" and "300i," from the line above (the customized italic fonts) -->
+
+<link href="asset/style/main.css" rel="stylesheet">
+
+</head>
+<body>
+
+<p><span class="alegreyaFont">Alegreya Font <i>and Italic font</i></span></p>
+Base font Muli <i>and Italic font</i>
+<p><span class="cardoFont">Cardo Font <i>and Italic font</i></span></p>
+
+
+<div class="container">
+
+  <header class="header">
+
+    <!-- Mobile -->
+<!--     <nav class="navbar navbar-toggleable-md navbar-light hidden-lg-up">
+      <button class="navbar-toggler navbar-toggler-right mt-2 px-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><i>Sarah Susanka (m)</i></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-right">
+          <li class="nav-item text-uppercase"><h2 class="mb-0"><a class="h5 text-info mb-0 nav-link active" href="/search">Search</a></h2></li>
+          <li class="nav-item text-uppercase"><h2 class="mb-0"><a class="h5 text-info mb-0 nav-link" href="/styles">Styles</a></h2></li>
+          <li class="nav-item text-uppercase"><h2 class="mb-0"><a class="h5 text-info mb-0 nav-link" href="/collection/public">Collections</a></h2></li>
+          <li class="nav-item text-uppercase"><h2 class="mb-0"><a class="h5 text-info mb-0 nav-link" href="/designers">Designers</a></h2></li>
+          <li class="nav-item text-uppercase"><h2 class="mb-0"><a class="h5 text-info mb-0 nav-link" href="/magazines">Magazines</a></h2></li>
+        </ul>
+      </div>
+    </nav> -->
+
+    <!-- Desktop -->
+    <div class="hidden-md-down d-flex justify-content-between m-0 pt-2 px-1 pb-0">
+      <p class="navbar-brand mb-0">
+        <a class="d-block" href="index.html">Sarah Susanka</a>
+        <span>Architect &amp; Author</span>
+      </p>
+      <div class="d-flex flex-column justify-content-between">
+        <div class="d-flex flex-row justify-content-end">
+          <div class="mt-1 mr-3 float-right hidden-xs-down">
+
+            <ul class="list-unstyled flex-nowrap list-inline mb-0">
+              <li class="list-inline-item"><a href="#"><img src="https://placehold.it/35x35/ff0000/ffffff" alt=""></a></li>
+              <li class="list-inline-item"><a href="#"><img src="https://placehold.it/35x35/ffff00/ffffff" alt=""></a></li>
+              <li class="list-inline-item"><a href="#"><img src="https://placehold.it/35x35/ff00ff/ffffff" alt=""></a></li>
+              <li class="list-inline-item"><a href="#"><img src="https://placehold.it/35x35/00ffff/ffffff" alt=""></a></li>
+              <li class="list-inline-item"><a href="#"><img src="https://placehold.it/35x35/00ffff/ffffff" alt=""></a></li>
+            </ul>
+
+          </div>
+        </div>
+        <ul class="list-unstyled text-uppercase mb-0">
+          <li class="nav-item text-uppercase list-inline-item"><h2 class="mb-0"><a class="h6 text-info mb-0 nav-link" href="#"><b>About Sarah</b></a></h2></li>
+          <li class="nav-item text-uppercase list-inline-item"><h2 class="mb-0"><a class="h6 text-info mb-0 nav-link" href="#"><b>Events</b></a></h2></li>
+          <li class="nav-item text-uppercase list-inline-item"><h2 class="mb-0"><a class="h6 text-info mb-0 nav-link" href="#"><b>Books</b></a></h2></li>
+          <li class="nav-item text-uppercase list-inline-item"><h2 class="mb-0"><a class="h6 text-info mb-0 nav-link" href="#"><b>Designers</b></a></h2></li>
+          <li class="nav-item text-uppercase list-inline-item"><h2 class="mb-0"><a class="h6 text-info mb-0 nav-link" href="#"><b>Blog</b></a></h2></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Subheader -->
+    <div class="row no-gutters navbar-subheader">
+      <div class="col-3 px-0">
+        <button type="button" class="w-100 btn text-white border-right-1 border-radius-0"><i>NOT&nbsp;SO&nbsp;BIG</i> <b>HOUSE</b></button>
+      </div>
+      <div class="col-3 px-0">
+        <button type="button" class="w-100 btn text-white border-right-1 border-radius-0"><i>NOT&nbsp;SO&nbsp;BIG</i> <b>LIFE</b></button>
+      </div>
+      <div class="col-3 px-0">
+        <button type="button" class="w-100 btn text-white border-right-1 border-radius-0"><i>NOT&nbsp;SO&nbsp;BIG</i> <b>SHOW&nbsp;HOUSES</b></button>
+      </div>
+      <div class="col-3 px-0">
+        <button type="button" class="w-100 btn text-white border-radius-0"><i>NOT&nbsp;SO&nbsp;BIG</i> <b>HOME&nbsp;PLANS</b></button>
+      </div>
+    </div>
+
+  </header>
+
+
+
+  <!-- Standard Footer -->
+  <footer class="footer mt-5">
+    <div class="row no-gutters">
+      <div class="col-3 p-2 text-center">
+        <a class="d-block" href="index.html">Sarah Susanka</a>
+        <span>Architect &amp; Author</span>
+        <img class="d-block rounded mx-auto" src="https://placehold.it/80x86/ff0000/ffffff?text=Sarah" alt="">
+      </div>
+      <div class="col-3 p-2 text-center">
+        <h3 class="h5 my-3">Lorem ipsum dolor sit</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod!</p>
+      </div>
+      <div class="col-3 p-2 text-center">
+        <h3 class="h5 my-3">Lorem ipsum dolor sit</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod!</p>
+      </div>
+      <div class="col-3 p-2 text-center">
+        <h3 class="h5 my-3">Lorem ipsum dolor sit</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod!</p>
+      </div>
+    </div>
+  </footer>
+
+</div><!-- ./container -->
+
+</body>
+</html>

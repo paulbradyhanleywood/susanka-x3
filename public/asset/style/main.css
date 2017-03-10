@@ -1,0 +1,58 @@
+/* Only edit the .scss file. The main.css file will be overritten!!! */
+/* Site-wide additions */
+body {
+  font-family: 'Muli', serif;
+  font-size: 16px;
+  color: black; }
+
+.alegreyaFont {
+  font-family: 'Alegreya', serif; }
+
+.muliFont {
+  font-family: 'Muli', serif; }
+
+.cardoFont {
+  font-family: 'Cardo', serif; }
+
+.border-right-1 {
+  border-right: 1px solid white !important; }
+
+.border-radius-0 {
+  border-radius: 0 !important; }
+
+/* Header */
+.header .navbar-brand {
+  font-family: 'Cardo', serif;
+  color: black; }
+  .header .navbar-brand a {
+    font-size: 1.73rem;
+    /* 1.5rem ~= 24px */ }
+  .header .navbar-brand span {
+    font-size: 1.3rem;
+    font-style: italic; }
+.header .navbar-subheader {
+  font-family: 'Muli', serif;
+  color: black; }
+  .header .navbar-subheader button {
+    font-size: 0.8rem;
+    background-color: #5e816c;
+    line-height: 2; }
+    .header .navbar-subheader button:hover {
+      background-color: #496353; }
+
+/* Footer */
+.footer {
+  background-color: #5e816c; }
+
+/* Bootstrap Overrides */
+a {
+  color: black; }
+
+a:hover {
+  color: black;
+  text-decoration: underline; }
+
+.text-info {
+  color: black !important; }
+
+/*# sourceMappingURL=main.css.map */
