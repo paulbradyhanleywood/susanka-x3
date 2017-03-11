@@ -81,6 +81,49 @@ body {
     .header .navbar-subheader button:hover {
       background-color: #496353; }
 
+/* Homepage Hero */
+.ss-hero {
+  position: relative;
+  background-color: transparent;
+  background-position: center center;
+  background-size: cover;
+  height: 40vw;
+  min-height: 300px;
+  max-height: 352px; }
+  .ss-hero .ss-innerDiv {
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    left: 40px;
+    width: 300px;
+    padding: 30px;
+    max-width: 50%;
+    background-color: rgba(255, 255, 255, 0.9); }
+  @media (max-width: 1200px) {
+    .ss-hero .ss-innerDiv {
+      top: 30px;
+      bottom: 30px;
+      left: 30px;
+      width: 300px;
+      padding: 20px;
+      max-width: none; } }
+  @media (max-width: 768px) {
+    .ss-hero .ss-innerDiv {
+      top: 30px;
+      bottom: 30px;
+      left: 30px;
+      width: 300px;
+      padding: 20px;
+      max-width: none; } }
+  @media (max-width: 576px) {
+    .ss-hero .ss-innerDiv {
+      top: 30px;
+      bottom: 30px;
+      left: 30px;
+      right: 30px;
+      padding: 20px;
+      max-width: none; } }
+
 /* Footer */
 footer.footer {
   background-color: #5e816c; }

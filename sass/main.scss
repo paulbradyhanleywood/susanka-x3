@@ -134,6 +134,74 @@ body {
 }
 
 
+/* Homepage Hero */
+.ss-hero {
+  position: relative;
+  background-color: transparent;
+  background-position: center center; 
+  background-size: cover; 
+  height: 40vw;
+  min-height: 300px;
+  max-height: 352px;
+
+  .ss-innerDiv {
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    left: 40px;
+
+    width: 300px;
+    padding: 30px;
+    max-width: 50%;
+
+    background-color: rgba(white, 0.9);
+  }
+
+
+  // Hero Media Queries - Based on current browser window width
+  @media( screen and max-width: 1200px) {
+    .ss-innerDiv {
+      top: 30px;
+      bottom: 30px;
+      left: 30px;
+
+      width: 300px;
+      padding: 20px;
+      max-width: none;
+
+      // background-color: rgba(red, 0.9);
+    }
+  }
+
+  @media( screen and max-width: 768px) {
+    .ss-innerDiv {
+      top: 30px;
+      bottom: 30px;
+      left: 30px;
+
+      width: 300px;
+      padding: 20px;
+      max-width: none;
+
+      // background-color: rgba(blue, 0.9);
+    }
+  }
+
+  @media( screen and max-width: 576px) {
+    .ss-innerDiv {
+      top: 30px;
+      bottom: 30px;
+      left: 30px;
+      right: 30px;
+
+      padding: 20px;
+      max-width: none;
+
+      // background-color: rgba(orange, 0.9);
+    }
+  }
+
+}
 
 
 
