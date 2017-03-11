@@ -2,6 +2,32 @@
 $medium_green:  #5e816c;
 
 
+
+/* Bootstrap Overrides */
+a {
+  color: black;
+
+  &.medium_green {
+    color: $medium_green;
+  }
+
+  &.dark_green {
+    color: darken( $medium_green, 10% );
+  }
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.text-info {
+  color: black !important;
+}
+
+
+
+
 /* Site-wide additions */
 body {
   font-family: 'Muli', serif;
@@ -22,9 +48,6 @@ body {
   font-family: 'Cardo', serif;
 }
 
-.medium_green_color {
-  color: $medium_green !important;
-}
 
 
 .border-right-1 {
@@ -69,7 +92,7 @@ body {
     height: 35px;
     width: 35px;
     font-size: 24px;
-    background-color: red;
+    background-color: red; /* !!!! */
   }
 
   .navbar-subheader {
@@ -94,24 +117,22 @@ body {
 
 
 /* Footer */
-.footer {
+footer.footer {
   background-color: $medium_green;
 
+  .footer-brand {
+    font-family: 'Cardo', serif;
+
+    a {
+      color: white !important;
+      &:hover {
+        color: white;
+      }
+    }
+    span {
+      font-style: italic;
+    }
+  }
+
 }
-
-
-/* Bootstrap Overrides */
-a {
-  color: black;
-}
-
-a:hover {
-  color: black;
-  text-decoration: underline;
-}
-
-.text-info {
-  color: black !important;
-}
-
 
