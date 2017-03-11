@@ -1,11 +1,14 @@
 /* Only edit the .scss file. The main.css file will be overritten!!! */
 /* Bootstrap Overrides */
+.light_green {
+  color: #a3bcad; }
+
 a {
   color: black; }
   a.medium_green {
     color: #5e816c; }
   a.dark_green {
-    color: #496353; }
+    color: #3e5547; }
 
 a:hover {
   color: black;
@@ -29,20 +32,23 @@ body {
 .cardoFont {
   font-family: 'Cardo', serif; }
 
+.border-1-green {
+  border: 1px solid #5e816c; }
+
 .border-right-1 {
   border-right: 1px solid white; }
 
 .border-radius-0 {
   border-radius: 0; }
 
-/* !!! */
-.circle {
-  border: 2px solid #a1a1a1;
-  padding: 10px;
-  background: #dddddd;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%; }
+.socialCircle {
+  display: inline-block;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 0.7px;
+  background: #a3bcad;
+  text-align: center; }
 
 /* Header */
 .header .navbar-brand {
@@ -54,13 +60,6 @@ body {
   .header .navbar-brand span {
     font-size: 1.3rem;
     font-style: italic; }
-.header ul li a.socialIcon {
-  background-color: #5e816c;
-  height: 35px;
-  width: 35px;
-  font-size: 24px;
-  background-color: red;
-  /* !!!! */ }
 .header .navbar-subheader {
   font-family: 'Muli', serif;
   color: black; }

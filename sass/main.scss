@@ -1,9 +1,16 @@
 /* Only edit the .scss file. The main.css file will be overritten!!! */
 $medium_green:  #5e816c;
+$light_green: lighten( $medium_green, 25% );
+$dark_green: darken( $medium_green, 15% );
 
 
 
 /* Bootstrap Overrides */
+.light_green {
+  color: $light_green;
+}
+
+
 a {
   color: black;
 
@@ -12,7 +19,7 @@ a {
   }
 
   &.dark_green {
-    color: darken( $medium_green, 10% );
+    color: $dark_green;
   }
 }
 
@@ -49,6 +56,9 @@ body {
 }
 
 
+.border-1-green {
+  border: 1px solid $medium_green;
+}
 
 .border-right-1 {
   border-right: 1px solid white;
@@ -58,14 +68,16 @@ body {
   border-radius: 0;
 }
 
-/* !!! */
-.circle {
-    border: 2px solid #a1a1a1;
-    padding: 10px; 
-    background: #dddddd;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+.socialCircle {
+  display: inline-block;
+  border-radius: 50%;
+
+  width: 25px;
+  height: 25px;
+  padding: 0.7px;
+
+  background: $light_green;
+  text-align: center;
 }
 
 
@@ -85,14 +97,6 @@ body {
       font-size: 1.3rem;
       font-style: italic;
     }
-  }
-
-  ul li a.socialIcon {
-    background-color: $medium_green;
-    height: 35px;
-    width: 35px;
-    font-size: 24px;
-    background-color: red; /* !!!! */
   }
 
   .navbar-subheader {
