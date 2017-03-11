@@ -56,9 +56,18 @@ body {
 }
 
 
-.border-1-green {
-  border: 1px solid $medium_green;
+.border-1-green-upper {
+  border-top: 1px solid $medium_green;
+  border-left: 1px solid $medium_green;
+  border-right: 1px solid $medium_green;
 }
+
+.border-1-green-lower {
+  border-left: 1px solid $medium_green;
+  border-right: 1px solid $medium_green;
+  border-bottom: 1px solid $medium_green;
+}
+
 
 .border-right-1 {
   border-right: 1px solid white;
