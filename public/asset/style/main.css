@@ -17,6 +17,13 @@ a:hover {
 .text-info {
   color: black !important; }
 
+button {
+  font-size: 0.8rem;
+  background-color: #5e816c;
+  line-height: 2; }
+  button:hover {
+    background-color: #496353; }
+
 /* Reusable additions */
 body {
   font-family: 'Muli', serif;
@@ -74,12 +81,6 @@ body {
 .header .navbar-subheader {
   font-family: 'Muli', serif;
   color: black; }
-  .header .navbar-subheader button {
-    font-size: 0.8rem;
-    background-color: #5e816c;
-    line-height: 2; }
-    .header .navbar-subheader button:hover {
-      background-color: #496353; }
 
 /* Homepage Hero (aka. Jumbotron) */
 .ss-hero {

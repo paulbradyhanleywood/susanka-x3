@@ -32,6 +32,17 @@ a:hover {
   color: black !important;
 }
 
+button {
+  font-size: 0.8rem;
+  background-color: $medium_green;
+  line-height: 2;
+
+  &:hover {
+    background-color: darken( $medium_green, 10% );
+  }
+}
+
+
 
 
 
@@ -119,17 +130,6 @@ body {
   .navbar-subheader {
     font-family: 'Muli', serif;
     color: black;
-
-    button {
-      font-size: 0.8rem;
-      background-color: $medium_green;
-      line-height: 2;
-
-      &:hover {
-        background-color: darken( $medium_green, 10% );
-      }
-    }
-
   }
 }
 
