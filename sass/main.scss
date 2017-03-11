@@ -35,7 +35,7 @@ a:hover {
 
 
 
-/* Site-wide additions */
+/* Reusable additions */
 body {
   font-family: 'Muli', serif;
   font-size: 16px;
@@ -55,20 +55,6 @@ body {
   font-family: 'Cardo', serif;
 }
 
-
-.border-1-green-upper {
-  border-top: 1px solid $medium_green;
-  border-left: 1px solid $medium_green;
-  border-right: 1px solid $medium_green;
-}
-
-.border-1-green-lower {
-  border-left: 1px solid $medium_green;
-  border-right: 1px solid $medium_green;
-  border-bottom: 1px solid $medium_green;
-}
-
-
 .border-right-1 {
   border-right: 1px solid white;
 }
@@ -77,6 +63,28 @@ body {
   border-radius: 0;
 }
 
+.wrap {
+  white-space: normal;
+}
+
+
+/* Susanka specific additions */
+
+// All Page borders
+.container.border-1-green-upper {
+  border-top: 1px solid $medium_green;
+  border-left: 1px solid $medium_green;
+  border-right: 1px solid $medium_green;
+}
+
+.container.border-1-green-lower { // around footer and copyright
+  border-left: 1px solid $medium_green;
+  border-right: 1px solid $medium_green;
+  border-bottom: 1px solid $medium_green;
+}
+
+
+// Social links
 .socialCircle {
   display: inline-block;
   border-radius: 50%;
@@ -146,6 +154,10 @@ footer.footer {
     span {
       font-style: italic;
     }
+  }
+
+  .socialCircle {
+    margin-bottom: 10px;
   }
 
 }

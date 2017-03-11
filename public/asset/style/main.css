@@ -17,7 +17,7 @@ a:hover {
 .text-info {
   color: black !important; }
 
-/* Site-wide additions */
+/* Reusable additions */
 body {
   font-family: 'Muli', serif;
   font-size: 16px;
@@ -32,21 +32,25 @@ body {
 .cardoFont {
   font-family: 'Cardo', serif; }
 
-.border-1-green-upper {
-  border-top: 1px solid #5e816c;
-  border-left: 1px solid #5e816c;
-  border-right: 1px solid #5e816c; }
-
-.border-1-green-lower {
-  border-left: 1px solid #5e816c;
-  border-right: 1px solid #5e816c;
-  border-bottom: 1px solid #5e816c; }
-
 .border-right-1 {
   border-right: 1px solid white; }
 
 .border-radius-0 {
   border-radius: 0; }
+
+.wrap {
+  white-space: normal; }
+
+/* Susanka specific additions */
+.container.border-1-green-upper {
+  border-top: 1px solid #5e816c;
+  border-left: 1px solid #5e816c;
+  border-right: 1px solid #5e816c; }
+
+.container.border-1-green-lower {
+  border-left: 1px solid #5e816c;
+  border-right: 1px solid #5e816c;
+  border-bottom: 1px solid #5e816c; }
 
 .socialCircle {
   display: inline-block;
@@ -88,5 +92,7 @@ footer.footer {
     font-family: 'Cardo', serif; }
     footer.footer .footer-brand span {
       font-style: italic; }
+  footer.footer .socialCircle {
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */
