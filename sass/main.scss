@@ -134,13 +134,13 @@ body {
 }
 
 
-/* Homepage Hero */
+/* Homepage Hero (aka. Jumbotron) */
 .ss-hero {
   position: relative;
   background-color: transparent;
   background-position: center center; 
   background-size: cover; 
-  height: 40vw;
+  height: 40vw; // Proportional height (Make the div height 40% of the current browser width)
   min-height: 300px;
   max-height: 352px;
 

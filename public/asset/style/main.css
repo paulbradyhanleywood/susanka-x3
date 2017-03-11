@@ -81,7 +81,7 @@ body {
     .header .navbar-subheader button:hover {
       background-color: #496353; }
 
-/* Homepage Hero */
+/* Homepage Hero (aka. Jumbotron) */
 .ss-hero {
   position: relative;
   background-color: transparent;
