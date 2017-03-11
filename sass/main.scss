@@ -120,15 +120,16 @@ body {
 footer.footer {
   background-color: $medium_green;
 
+  a {
+    color: white !important;
+    &:hover {
+      color: white;
+    }
+  }
+
   .footer-brand {
     font-family: 'Cardo', serif;
 
-    a {
-      color: white !important;
-      &:hover {
-        color: white;
-      }
-    }
     span {
       font-style: italic;
     }

@@ -74,12 +74,12 @@ body {
 /* Footer */
 footer.footer {
   background-color: #5e816c; }
+  footer.footer a {
+    color: white !important; }
+    footer.footer a:hover {
+      color: white; }
   footer.footer .footer-brand {
     font-family: 'Cardo', serif; }
-    footer.footer .footer-brand a {
-      color: white !important; }
-      footer.footer .footer-brand a:hover {
-        color: white; }
     footer.footer .footer-brand span {
       font-style: italic; }
 
