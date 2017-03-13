@@ -76,17 +76,14 @@ body {
   font-family: 'Cardo', serif;
 }
 
-.border-right-1 {
-  border-right: 1px solid white;
+.wrap {
+  white-space: normal;
 }
 
 .border-radius-0 {
   border-radius: 0;
 }
 
-.wrap {
-  white-space: normal;
-}
 
 
 
@@ -141,6 +138,15 @@ body {
   .navbar-subheader {
     font-family: 'Muli', serif;
     color: black;
+
+    @media (screen and min-width: 576px) {
+      // White borders for Tablets/Desktop only
+      .border-right-1 {
+        border-right: 1px solid white;
+      }
+
+    }
+
   }
 }
 
