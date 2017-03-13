@@ -150,9 +150,7 @@ body {
     bottom: 40px;
     left: 40px;
 
-    width: 300px;
     padding: 30px;
-    max-width: 50%;
 
     background-color: rgba(white, 0.9);
   }
@@ -167,7 +165,6 @@ body {
 
       width: 300px;
       padding: 20px;
-      max-width: none;
 
       // background-color: rgba(red, 0.9);
     }
@@ -181,7 +178,6 @@ body {
 
       width: 300px;
       padding: 20px;
-      max-width: none;
 
       // background-color: rgba(blue, 0.9);
     }
@@ -198,6 +194,19 @@ body {
       max-width: none;
 
       // background-color: rgba(orange, 0.9);
+    }
+  }
+
+  @media( screen and max-width: 400px) {
+    .ss-innerDiv {
+      top: 20px;
+      bottom: 20px;
+      left: 20px;
+
+      padding: 15px;
+      width: 85%;
+
+      // background-color: rgba(violet, 0.9);
     }
   }
 

@@ -96,9 +96,7 @@ body {
     top: 40px;
     bottom: 40px;
     left: 40px;
-    width: 300px;
     padding: 30px;
-    max-width: 50%;
     background-color: rgba(255, 255, 255, 0.9); }
   @media (max-width: 1200px) {
     .ss-hero .ss-innerDiv {
@@ -106,16 +104,14 @@ body {
       bottom: 30px;
       left: 30px;
       width: 300px;
-      padding: 20px;
-      max-width: none; } }
+      padding: 20px; } }
   @media (max-width: 768px) {
     .ss-hero .ss-innerDiv {
       top: 30px;
       bottom: 30px;
       left: 30px;
       width: 300px;
-      padding: 20px;
-      max-width: none; } }
+      padding: 20px; } }
   @media (max-width: 576px) {
     .ss-hero .ss-innerDiv {
       top: 30px;
@@ -124,6 +120,13 @@ body {
       right: 30px;
       padding: 20px;
       max-width: none; } }
+  @media (max-width: 400px) {
+    .ss-hero .ss-innerDiv {
+      top: 20px;
+      bottom: 20px;
+      left: 20px;
+      padding: 15px;
+      width: 85%; } }
 
 /* Footer */
 footer.footer {
