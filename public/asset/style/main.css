@@ -1,14 +1,29 @@
 /* Only edit the .scss file. The main.css file will be overritten!!! */
-/* Bootstrap Overrides */
+/* Color Helpers */
 .light_green {
   color: #a3bcad; }
 
+.medium_green {
+  color: #5e816c; }
+
+.dark_green {
+  color: #3e5547; }
+
+.bg-light-green {
+  background-color: #a3bcad; }
+
+.bg-medium-green {
+  background-color: #5e816c; }
+
+.bg-dark-green {
+  background-color: #3e5547; }
+
+.bg-white {
+  background-color: white; }
+
+/* Bootstrap Overrides */
 a {
   color: black; }
-  a.medium_green {
-    color: #5e816c; }
-  a.dark_green {
-    color: #3e5547; }
 
 a:hover {
   color: black;
@@ -48,7 +63,7 @@ body {
 .wrap {
   white-space: normal; }
 
-/* Susanka specific additions */
+/* Susanka site specific additions */
 .container.border-1-green-upper {
   border-top: 1px solid #5e816c;
   border-left: 1px solid #5e816c;
@@ -97,6 +112,7 @@ body {
     bottom: 40px;
     left: 40px;
     padding: 30px;
+    max-width: 300px;
     background-color: rgba(255, 255, 255, 0.9); }
   @media (max-width: 1200px) {
     .ss-hero .ss-innerDiv {
@@ -127,6 +143,11 @@ body {
       left: 20px;
       padding: 15px;
       width: 85%; } }
+
+/* Calendar */
+.calendarInfoBox {
+  background-color: white;
+  min-height: 124px; }
 
 /* Footer */
 footer.footer {

@@ -4,23 +4,33 @@ $light_green: lighten( $medium_green, 25% );
 $dark_green: darken( $medium_green, 15% );
 
 
-
-/* Bootstrap Overrides */
+/* Color Helpers */
 .light_green {
   color: $light_green;
 }
+.medium_green {
+  color: $medium_green;  
+}
+.dark_green {
+  color: $dark_green;
+}
+.bg-light-green {
+  background-color: $light_green; 
+}
+.bg-medium-green {
+  background-color: $medium_green; 
+}
+.bg-dark-green {
+  background-color: $dark_green; 
+}
+.bg-white {
+  background-color: white;
+}
 
 
+/* Bootstrap Overrides */
 a {
   color: black;
-
-  &.medium_green {
-    color: $medium_green;
-  }
-
-  &.dark_green {
-    color: $dark_green;
-  }
 }
 
 a:hover {
@@ -79,7 +89,8 @@ body {
 }
 
 
-/* Susanka specific additions */
+
+/* Susanka site specific additions */
 
 // All Page borders
 .container.border-1-green-upper {
@@ -151,7 +162,7 @@ body {
     left: 40px;
 
     padding: 30px;
-
+    max-width: 300px;
     background-color: rgba(white, 0.9);
   }
 
@@ -212,6 +223,12 @@ body {
 
 }
 
+
+/* Calendar */
+.calendarInfoBox {
+  background-color: white;
+  min-height: 124px;
+}
 
 
 /* Footer */
