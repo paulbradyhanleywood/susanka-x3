@@ -97,7 +97,7 @@ body {
     .header .navbar-subheader .border-right-1 {
       border-right: 1px solid white; } }
 
-/* Homepage Hero (aka. Jumbotron) */
+/* Homepage Hero 1 (aka. Jumbotron) */
 .ss-hero {
   position: relative;
   background-color: transparent;
@@ -112,37 +112,80 @@ body {
     bottom: 40px;
     left: 40px;
     padding: 30px;
-    max-width: 300px;
+    max-width: 40%;
     background-color: rgba(255, 255, 255, 0.9); }
+  .ss-hero.ss-shorter {
+    height: 17vw !important;
+    min-height: 150px !important;
+    max-height: 210px !important; }
+    .ss-hero.ss-shorter .ss-innerDiv {
+      position: absolute;
+      top: 20px;
+      bottom: 20px;
+      left: 20px;
+      padding: 20px;
+      max-width: 40%; }
   @media (max-width: 1200px) {
     .ss-hero .ss-innerDiv {
       top: 30px;
       bottom: 30px;
       left: 30px;
       width: 300px;
+      height: auto;
       padding: 20px; } }
   @media (max-width: 768px) {
     .ss-hero .ss-innerDiv {
       top: 30px;
-      bottom: 30px;
       left: 30px;
+      height: auto;
       width: 300px;
       padding: 20px; } }
   @media (max-width: 576px) {
     .ss-hero .ss-innerDiv {
       top: 30px;
-      bottom: 30px;
       left: 30px;
       right: 30px;
+      height: auto;
       padding: 20px;
       max-width: none; } }
   @media (max-width: 400px) {
     .ss-hero .ss-innerDiv {
       top: 20px;
-      bottom: 20px;
       left: 20px;
+      height: auto;
       padding: 15px;
       width: 85%; } }
+  .ss-hero.ss-shorter > .ss-innerDiv {
+    top: 20px;
+    bottom: 20px;
+    max-width: 40%; }
+  @media (max-width: 1200px) {
+    .ss-hero.ss-shorter > .ss-innerDiv {
+      top: 15px;
+      bottom: 15px;
+      width: 40%; } }
+  @media (max-width: 991px) {
+    .ss-hero.ss-shorter {
+      height: 30vw !important;
+      min-height: none;
+      max-height: none; }
+      .ss-hero.ss-shorter .ss-innerDiv {
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        left: 15px;
+        width: 90%;
+        max-width: none; } }
+  @media (max-width: 576px) {
+    .ss-hero.ss-shorter {
+      height: 50vw !important;
+      min-height: 191px;
+      max-height: none; } }
+  @media (max-width: 400px) {
+    .ss-hero.ss-shorter {
+      height: 75vw !important;
+      min-height: none;
+      max-height: none; } }
 
 /* Calendar */
 .calendarInfoBox {

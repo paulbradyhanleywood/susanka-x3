@@ -151,7 +151,7 @@ body {
 }
 
 
-/* Homepage Hero (aka. Jumbotron) */
+/* Homepage Hero 1 (aka. Jumbotron) */
 .ss-hero {
   position: relative;
   background-color: transparent;
@@ -168,19 +168,39 @@ body {
     left: 40px;
 
     padding: 30px;
-    max-width: 300px;
+    max-width: 40%;
     background-color: rgba(white, 0.9);
   }
 
+  &.ss-shorter {
+    height: 17vw !important; // SHORTER Proportional height ratio (ex. index1.html and index2.html)
+    min-height: 150px !important;
+    max-height: 210px !important;
 
-  // Hero Media Queries - Based on current browser window width
+    .ss-innerDiv {
+      position: absolute;
+      top: 20px;
+      bottom: 20px;
+      left: 20px;
+
+      padding: 20px;
+      max-width: 40%;
+      // background-color: rgba(yellow, 0.9);
+    }
+  }
+
+
+
+  // TALLER Hero Media Queries - Based on current browser window width
   @media( screen and max-width: 1200px) {
+
     .ss-innerDiv {
       top: 30px;
       bottom: 30px;
       left: 30px;
 
       width: 300px;
+      height: auto;
       padding: 20px;
 
       // background-color: rgba(red, 0.9);
@@ -190,8 +210,8 @@ body {
   @media( screen and max-width: 768px) {
     .ss-innerDiv {
       top: 30px;
-      bottom: 30px;
       left: 30px;
+      height: auto;
 
       width: 300px;
       padding: 20px;
@@ -203,9 +223,9 @@ body {
   @media( screen and max-width: 576px) {
     .ss-innerDiv {
       top: 30px;
-      bottom: 30px;
       left: 30px;
       right: 30px;
+      height: auto;
 
       padding: 20px;
       max-width: none;
@@ -217,13 +237,66 @@ body {
   @media( screen and max-width: 400px) {
     .ss-innerDiv {
       top: 20px;
-      bottom: 20px;
       left: 20px;
+      height: auto;
 
       padding: 15px;
       width: 85%;
 
       // background-color: rgba(violet, 0.9);
+    }
+  }
+
+
+
+
+  // SHORTER Hero, so LESS padding / different text limits.
+  &.ss-shorter > .ss-innerDiv {
+    top: 20px;
+    bottom: 20px;
+
+    max-width: 40%;
+  }
+
+  @media( screen and max-width: 1200px) {
+
+    &.ss-shorter > .ss-innerDiv {
+      top: 15px;
+      bottom: 15px;
+      width: 40%;
+    }
+  }
+
+  @media( screen and max-width: 991px) {
+    &.ss-shorter {
+      height: 30vw !important; // Must be taller to fit text on Mobile.
+      min-height: none;
+      max-height: none;
+
+      .ss-innerDiv {
+        top: 15px;
+        right: 15px;
+        bottom: 15px;
+        left: 15px;
+        width: 90%;
+        max-width: none;
+      }
+    }
+  }
+
+  @media( screen and max-width: 576px) {
+    &.ss-shorter {
+      height: 50vw !important; // Must be taller to fit text on Mobile.
+      min-height: 191px;
+      max-height: none;
+    }
+  }
+
+  @media( screen and max-width: 400px) {
+    &.ss-shorter {
+      height: 75vw !important; // Must be taller to fit text on Mobile.
+      min-height: none;
+      max-height: none;
     }
   }
 
