@@ -7,7 +7,7 @@ var port = process.env.PORT || 8001;
 //set dirname to client folder to serve static ASSETS (.css, .png, .jpg)
 app.use('/', express.static(__dirname + '/public'));
 
-
+// port message
 app.listen(port, function() {
   console.log("Listening on port " + port + "...");
 });
