@@ -78,16 +78,16 @@
     <!-- Subheader -->
     <div class="row no-gutters navbar-subheader mb-4">
       <div class="col-12 col-sm-3 px-0">
-        <button type="button" class="w-100 h-100 btn text-white wrap border-right-1 border-radius-0"><i>NOT&nbsp;SO&nbsp;BIG</i> <b>HOUSE</b></button>
+        <button id="menuBtnBigHouse" type="button" class="w-100 h-100 btn text-white wrap border-right-1 border-radius-0"><i>NOT&nbsp;SO&nbsp;BIG</i> <b>HOUSE</b></button>
       </div>
       <div class="col-12 col-sm-3 px-0">
-        <button type="button" class="w-100 h-100 btn text-white wrap border-right-1 border-radius-0"><i>NOT&nbsp;SO&nbsp;BIG</i> <b>LIFE</b></button>
+        <button id="menuBtnBigLife" type="button" class="w-100 h-100 btn text-white wrap border-right-1 border-radius-0"><i>NOT&nbsp;SO&nbsp;BIG</i> <b>LIFE</b></button>
       </div>
       <div class="col-12 col-sm-3 px-0">
-        <button type="button" class="w-100 h-100 btn text-white wrap border-right-1 border-radius-0"><i>NOT&nbsp;SO&nbsp;BIG</i> <b>SHOW&nbsp;HOUSES</b></button>
+        <button id="menuBtnShowHouses" type="button" class="w-100 h-100 btn text-white wrap border-right-1 border-radius-0"><i>NOT&nbsp;SO&nbsp;BIG</i> <b>SHOW&nbsp;HOUSES</b></button>
       </div>
       <div class="col-12 col-sm-3 px-0">
-        <button type="button" class="w-100 h-100 btn text-white wrap border-radius-0"><i>NOT&nbsp;SO&nbsp;BIG</i> <b>HOME&nbsp;PLANS</b></button>
+        <button id="NOT-USED-YET" type="button" class="w-100 h-100 btn text-white wrap border-radius-0"><i>NOT&nbsp;SO&nbsp;BIG</i> <b>HOME&nbsp;PLANS</b></button>
       </div>
     </div>
 
@@ -233,6 +233,26 @@
 </div><!-- ./container -->
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<script>
+
+(function(){ 
+
+  // Just enough to get some menu buttons to work...
+  document.getElementById('menuBtnBigHouse').addEventListener('click', function() {
+    location.href = "index1.html";
+  });
+  document.getElementById('menuBtnBigLife').addEventListener('click', function() {
+    location.href = "index2.html";
+  });
+  document.getElementById('menuBtnShowHouses').addEventListener('click', function() {
+    location.href = "index3.html";
+  });
+
+}());
+
+</script>
+
 
 </body>
 </html>
