@@ -5,6 +5,26 @@ This small kit includes 3 responsive sample pages for Susanka.com (index.html, i
 
 The pages are intended to handle browser widths from 320px (iPhone 5) up to 1200px (and wider!).
 
+### Project Layout
+```
+/public
+	/assets
+		/img
+			(misc placeholder images)
+		/style
+			main.css (the CSS version of the stylesheet)
+			bootstrap.css (for your reference)
+	index.html				
+	index2.html
+	index3.html
+/sass
+	main.scss (the SASS version of the stylesheet)
+susanka_landingpages--target-layouts.png (the desktop mockup)
+...
+(other trival files)
+
+```
+
 ### Bootstrap 4
 We have used the soon-to-be-released Bootstrap 4 (alpha 6 currently), like we do on our own upcoming websites.  
 
