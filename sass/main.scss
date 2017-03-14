@@ -1,8 +1,10 @@
 /* Only edit the .scss file. The main.css file will be overritten!!! */
+
 $medium_green:  #5e816c;
 $light_green: lighten( $medium_green, 25% );
 $dark_green: darken( $medium_green, 15% );
 $grey: #797979;
+
 
 /* Color Helpers */
 .light_green {
@@ -45,7 +47,7 @@ a:hover {
 // a.medium-green-link:visited,
 // a.medium-green-link:hover,
 // a.medium-green-link:action {
-//   color: red;
+//   color: red !important;
 // }
 
 
