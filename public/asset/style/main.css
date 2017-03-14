@@ -9,6 +9,9 @@
 .dark_green {
   color: #3e5547; }
 
+.grey {
+  color: #797979; }
+
 .bg-light-green {
   background-color: #a3bcad; }
 
@@ -192,6 +195,7 @@ body {
   background-color: white;
   min-height: 124px; }
 
+/* Video plus Icon Menu */
 /* Footer */
 footer.footer {
   background-color: #5e816c; }

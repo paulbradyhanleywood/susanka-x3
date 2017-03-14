@@ -2,7 +2,7 @@
 $medium_green:  #5e816c;
 $light_green: lighten( $medium_green, 25% );
 $dark_green: darken( $medium_green, 15% );
-
+$grey: #797979;
 
 /* Color Helpers */
 .light_green {
@@ -13,6 +13,9 @@ $dark_green: darken( $medium_green, 15% );
 }
 .dark_green {
   color: $dark_green;
+}
+.grey {
+  color: $grey;
 }
 .bg-light-green {
   background-color: $light_green; 
@@ -37,6 +40,15 @@ a:hover {
   color: black;
   text-decoration: underline;
 }
+
+// a.medium-green-link:link,
+// a.medium-green-link:visited,
+// a.medium-green-link:hover,
+// a.medium-green-link:action {
+//   color: red;
+// }
+
+
 
 .text-info {
   color: black !important;
@@ -308,6 +320,11 @@ body {
   background-color: white;
   min-height: 124px;
 }
+
+
+/* Video plus Icon Menu */
+
+
 
 
 /* Footer */
