@@ -10,25 +10,16 @@ $grey: #797979;
 .light_green {
   color: $light_green;
 }
-.medium_green {
-  color: $medium_green;  
-}
 .dark_green {
   color: $dark_green;
 }
-.grey {
+.light_grey {
   color: $grey;
 }
-.bg-light-green {
-  background-color: $light_green; 
-}
-.bg-medium-green {
+.bg_medium_green {
   background-color: $medium_green; 
 }
-.bg-dark-green {
-  background-color: $dark_green; 
-}
-.bg-white {
+.bg_white {
   background-color: white;
 }
 
@@ -43,16 +34,16 @@ a:hover {
   text-decoration: underline;
 }
 
-// a.medium-green-link:link,
-// a.medium-green-link:visited,
-// a.medium-green-link:hover,
-// a.medium-green-link:action {
+// a.medium_green_link:link,
+// a.medium_green_link:visited,
+// a.medium_green_link:hover,
+// a.medium_green_link:action {
 //   color: red !important;
 // }
 
 
 
-.text-info {
+.text_dark {
   color: black !important;
 }
 
@@ -78,15 +69,15 @@ body {
 }
 
 
-.alegreyaFont {
+.alegreya_font {
   font-family: 'Alegreya', serif;
 }
 
-.muliFont {
+.muli_font {
   font-family: 'Muli', serif;
 }
 
-.cardoFont {
+.cardo_font {
   font-family: 'Cardo', serif;
 }
 
@@ -94,7 +85,7 @@ body {
   white-space: normal;
 }
 
-.border-radius-0 {
+.border_radius_0 {
   border-radius: 0;
 }
 
@@ -104,13 +95,13 @@ body {
 /* Susanka site specific additions */
 
 // All Page borders
-.container.border-1-green-upper {
+.container.border_1_green_upper {
   border-top: 1px solid $medium_green;
   border-left: 1px solid $medium_green;
   border-right: 1px solid $medium_green;
 }
 
-.container.border-1-green-lower { // around footer and copyright
+.container.border_1_green_lower { // around footer and copyright
   border-left: 1px solid $medium_green;
   border-right: 1px solid $medium_green;
   border-bottom: 1px solid $medium_green;
@@ -118,7 +109,7 @@ body {
 
 
 // Social links
-.socialCircle {
+.social_circle {
   display: inline-block;
   border-radius: 50%;
 
@@ -135,8 +126,8 @@ body {
 
 
 /* Header */
-.header {
-  .navbar-brand {
+.header_class {
+  .navbar_brand {
     font-family: 'Cardo', serif;
     color: black;
 
@@ -149,13 +140,13 @@ body {
     }
   }
 
-  .navbar-subheader {
+  .navbar_subheader {
     font-family: 'Muli', serif;
     color: black;
 
     @media (screen and min-width: 576px) {
       // White borders for Tablets/Desktop only
-      .border-right-1 {
+      .border_right_1 {
         border-right: 1px solid white;
       }
 
@@ -166,7 +157,7 @@ body {
 
 
 /* Homepage Hero 1 (aka. Jumbotron) */
-.ss-hero {
+.ss_hero {
   position: relative;
   background-color: transparent;
   background-position: center center; 
@@ -175,7 +166,7 @@ body {
   min-height: 300px;
   max-height: 352px;
 
-  .ss-innerDiv {
+  .ss_innerDiv {
     position: absolute;
     top: 40px;
     bottom: 40px;
@@ -186,12 +177,12 @@ body {
     background-color: rgba(white, 0.9);
   }
 
-  &.ss-shorter {
+  &.ss_shorter {
     height: 17vw !important; // SHORTER Proportional height ratio (ex. index1.html and index2.html)
     min-height: 150px !important;
     max-height: 210px !important;
 
-    .ss-innerDiv {
+    .ss_innerDiv {
       position: absolute;
       top: 20px;
       bottom: 20px;
@@ -208,7 +199,7 @@ body {
   // TALLER Hero Media Queries - Based on current browser window width
   @media( screen and max-width: 1200px) {
 
-    .ss-innerDiv {
+    .ss_innerDiv {
       top: 30px;
       bottom: 30px;
       left: 30px;
@@ -222,7 +213,7 @@ body {
   }
 
   @media( screen and max-width: 768px) {
-    .ss-innerDiv {
+    .ss_innerDiv {
       top: 30px;
       left: 30px;
       height: auto;
@@ -235,7 +226,7 @@ body {
   }
 
   @media( screen and max-width: 576px) {
-    .ss-innerDiv {
+    .ss_innerDiv {
       top: 30px;
       left: 30px;
       right: 30px;
@@ -249,7 +240,7 @@ body {
   }
 
   @media( screen and max-width: 400px) {
-    .ss-innerDiv {
+    .ss_innerDiv {
       top: 20px;
       left: 20px;
       height: auto;
@@ -265,7 +256,7 @@ body {
 
 
   // SHORTER Hero, so LESS padding / different text limits.
-  &.ss-shorter > .ss-innerDiv {
+  &.ss_shorter > .ss_innerDiv {
     top: 20px;
     bottom: 20px;
 
@@ -274,7 +265,7 @@ body {
 
   @media( screen and max-width: 1200px) {
 
-    &.ss-shorter > .ss-innerDiv {
+    &.ss_shorter > .ss_innerDiv {
       top: 15px;
       bottom: 15px;
       width: 40%;
@@ -282,12 +273,12 @@ body {
   }
 
   @media( screen and max-width: 991px) {
-    &.ss-shorter {
+    &.ss_shorter {
       height: 30vw !important; // Must be taller to fit text on Mobile.
       min-height: none;
       max-height: none;
 
-      .ss-innerDiv {
+      .ss_innerDiv {
         top: 15px;
         right: 15px;
         bottom: 15px;
@@ -299,7 +290,7 @@ body {
   }
 
   @media( screen and max-width: 576px) {
-    &.ss-shorter {
+    &.ss_shorter {
       height: 50vw !important; // Must be taller to fit text on Mobile.
       min-height: 191px;
       max-height: none;
@@ -307,7 +298,7 @@ body {
   }
 
   @media( screen and max-width: 400px) {
-    &.ss-shorter {
+    &.ss_shorter {
       height: 75vw !important; // Must be taller to fit text on Mobile.
       min-height: none;
       max-height: none;
@@ -318,7 +309,7 @@ body {
 
 
 /* Calendar */
-.calendarInfoBox {
+.calendar_info_box {
   background-color: white;
   min-height: 124px;
 }
@@ -330,7 +321,7 @@ body {
 
 
 /* Footer */
-footer.footer {
+footer.footer_class {
   background-color: $medium_green;
 
   a {
@@ -340,7 +331,7 @@ footer.footer {
     }
   }
 
-  .footer-brand {
+  .footer_brand {
     font-family: 'Cardo', serif;
 
     span {
@@ -348,7 +339,7 @@ footer.footer {
     }
   }
 
-  .socialCircle {
+  .social_circle {
     margin-bottom: 10px;
   }
 

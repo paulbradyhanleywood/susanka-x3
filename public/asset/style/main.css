@@ -3,25 +3,16 @@
 .light_green {
   color: #a3bcad; }
 
-.medium_green {
-  color: #5e816c; }
-
 .dark_green {
   color: #3e5547; }
 
-.grey {
+.light_grey {
   color: #797979; }
 
-.bg-light-green {
-  background-color: #a3bcad; }
-
-.bg-medium-green {
+.bg_medium_green {
   background-color: #5e816c; }
 
-.bg-dark-green {
-  background-color: #3e5547; }
-
-.bg-white {
+.bg_white {
   background-color: white; }
 
 /* Bootstrap Overrides */
@@ -32,7 +23,7 @@ a:hover {
   color: black;
   text-decoration: underline; }
 
-.text-info {
+.text_dark {
   color: black !important; }
 
 button {
@@ -48,33 +39,33 @@ body {
   font-size: 16px;
   color: black; }
 
-.alegreyaFont {
+.alegreya_font {
   font-family: 'Alegreya', serif; }
 
-.muliFont {
+.muli_font {
   font-family: 'Muli', serif; }
 
-.cardoFont {
+.cardo_font {
   font-family: 'Cardo', serif; }
 
 .wrap {
   white-space: normal; }
 
-.border-radius-0 {
+.border_radius_0 {
   border-radius: 0; }
 
 /* Susanka site specific additions */
-.container.border-1-green-upper {
+.container.border_1_green_upper {
   border-top: 1px solid #5e816c;
   border-left: 1px solid #5e816c;
   border-right: 1px solid #5e816c; }
 
-.container.border-1-green-lower {
+.container.border_1_green_lower {
   border-left: 1px solid #5e816c;
   border-right: 1px solid #5e816c;
   border-bottom: 1px solid #5e816c; }
 
-.socialCircle {
+.social_circle {
   display: inline-block;
   border-radius: 50%;
   width: 25px;
@@ -84,24 +75,24 @@ body {
   text-align: center; }
 
 /* Header */
-.header .navbar-brand {
+.header_class .navbar_brand {
   font-family: 'Cardo', serif;
   color: black; }
-  .header .navbar-brand a {
+  .header_class .navbar_brand a {
     font-size: 1.73rem;
     /* 1.5rem ~= 24px */ }
-  .header .navbar-brand span {
+  .header_class .navbar_brand span {
     font-size: 1.3rem;
     font-style: italic; }
-.header .navbar-subheader {
+.header_class .navbar_subheader {
   font-family: 'Muli', serif;
   color: black; }
   @media (min-width: 576px) {
-    .header .navbar-subheader .border-right-1 {
+    .header_class .navbar_subheader .border_right_1 {
       border-right: 1px solid white; } }
 
 /* Homepage Hero 1 (aka. Jumbotron) */
-.ss-hero {
+.ss_hero {
   position: relative;
   background-color: transparent;
   background-position: center center;
@@ -109,7 +100,7 @@ body {
   height: 40vw;
   min-height: 300px;
   max-height: 352px; }
-  .ss-hero .ss-innerDiv {
+  .ss_hero .ss_innerDiv {
     position: absolute;
     top: 40px;
     bottom: 40px;
@@ -117,11 +108,11 @@ body {
     padding: 30px;
     max-width: 40%;
     background-color: rgba(255, 255, 255, 0.9); }
-  .ss-hero.ss-shorter {
+  .ss_hero.ss_shorter {
     height: 17vw !important;
     min-height: 150px !important;
     max-height: 210px !important; }
-    .ss-hero.ss-shorter .ss-innerDiv {
+    .ss_hero.ss_shorter .ss_innerDiv {
       position: absolute;
       top: 20px;
       bottom: 20px;
@@ -129,7 +120,7 @@ body {
       padding: 20px;
       max-width: 40%; }
   @media (max-width: 1200px) {
-    .ss-hero .ss-innerDiv {
+    .ss_hero .ss_innerDiv {
       top: 30px;
       bottom: 30px;
       left: 30px;
@@ -137,14 +128,14 @@ body {
       height: auto;
       padding: 20px; } }
   @media (max-width: 768px) {
-    .ss-hero .ss-innerDiv {
+    .ss_hero .ss_innerDiv {
       top: 30px;
       left: 30px;
       height: auto;
       width: 300px;
       padding: 20px; } }
   @media (max-width: 576px) {
-    .ss-hero .ss-innerDiv {
+    .ss_hero .ss_innerDiv {
       top: 30px;
       left: 30px;
       right: 30px;
@@ -152,27 +143,27 @@ body {
       padding: 20px;
       max-width: none; } }
   @media (max-width: 400px) {
-    .ss-hero .ss-innerDiv {
+    .ss_hero .ss_innerDiv {
       top: 20px;
       left: 20px;
       height: auto;
       padding: 15px;
       width: 85%; } }
-  .ss-hero.ss-shorter > .ss-innerDiv {
+  .ss_hero.ss_shorter > .ss_innerDiv {
     top: 20px;
     bottom: 20px;
     max-width: 40%; }
   @media (max-width: 1200px) {
-    .ss-hero.ss-shorter > .ss-innerDiv {
+    .ss_hero.ss_shorter > .ss_innerDiv {
       top: 15px;
       bottom: 15px;
       width: 40%; } }
   @media (max-width: 991px) {
-    .ss-hero.ss-shorter {
+    .ss_hero.ss_shorter {
       height: 30vw !important;
       min-height: none;
       max-height: none; }
-      .ss-hero.ss-shorter .ss-innerDiv {
+      .ss_hero.ss_shorter .ss_innerDiv {
         top: 15px;
         right: 15px;
         bottom: 15px;
@@ -180,34 +171,34 @@ body {
         width: 90%;
         max-width: none; } }
   @media (max-width: 576px) {
-    .ss-hero.ss-shorter {
+    .ss_hero.ss_shorter {
       height: 50vw !important;
       min-height: 191px;
       max-height: none; } }
   @media (max-width: 400px) {
-    .ss-hero.ss-shorter {
+    .ss_hero.ss_shorter {
       height: 75vw !important;
       min-height: none;
       max-height: none; } }
 
 /* Calendar */
-.calendarInfoBox {
+.calendar_info_box {
   background-color: white;
   min-height: 124px; }
 
 /* Video plus Icon Menu */
 /* Footer */
-footer.footer {
+footer.footer_class {
   background-color: #5e816c; }
-  footer.footer a {
+  footer.footer_class a {
     color: white !important; }
-    footer.footer a:hover {
+    footer.footer_class a:hover {
       color: white; }
-  footer.footer .footer-brand {
+  footer.footer_class .footer_brand {
     font-family: 'Cardo', serif; }
-    footer.footer .footer-brand span {
+    footer.footer_class .footer_brand span {
       font-style: italic; }
-  footer.footer .socialCircle {
+  footer.footer_class .social_circle {
     margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */
