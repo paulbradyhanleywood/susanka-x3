@@ -1,5 +1,6 @@
+.DS_Store
+.git
 .sass-cache
 node_modules
 .npm
-bower_componentsx
-*.map
+bower_components
