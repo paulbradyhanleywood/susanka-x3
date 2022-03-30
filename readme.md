@@ -1,4 +1,4 @@
-#Sample Responsive Site Pages
+# Sample Responsive Site Pages
 
 
 This small kit includes 3 responsive sample pages for Susanka.com (index.html, index2.html, and index3.html).
@@ -40,7 +40,7 @@ You'll notice in the index.html pages that MOST of the CSS comes from Bootstrap.
 More about that below...
 
 
-###SASS / CSS
+### SASS / CSS
 -----
 
 LINK:  [SASS Basics -- See "Nesting" section](http://sass-lang.com/guide)
@@ -57,15 +57,15 @@ BEWARE, IF YOU EDIT THE /PUBLIC/CSS/MAIN.CSS FILE DIRECTLY, *THEN* RUN THE SASS 
 
 
 
-##How to install the SASS compiler
+## How to install the SASS compiler
 
-###Installing:  
+### Installing:  
 ```
 [sudo] gem install sass -n/usr/local/bin
 ```
 
 
-###Running the SASS Compiler
+### Running the SASS Compiler
 1. Open Terminal and go to the project root...
 ```
 cd susanka-x3
@@ -78,7 +78,7 @@ sass --watch sass:public/asset/style/
 3. Watch the terminal window for CSS errors.  You'll need to correct these for your CSS to fully compile.
 
 
-###Tricky Bits
+### Tricky Bits
 1. Probably the trickiest part is the HERO module on the top of each page.  (FYI -- Bootstrap calls them Jumbotrons.) There are two types...
 
 		- Short Jumbotrons (see index.html and index2.html)
@@ -105,7 +105,7 @@ If you see this, use a "padding-top" (pt-5) or "padding-bottom" (pb-5) instead o
 
 
 ---
-###Google Fonts Used
+### Google Fonts Used
 * Alegreya - (regular 400)
 * Muli - (regular 400)
 * Muli-italic - (light 300 italic) (optional)
@@ -113,7 +113,7 @@ If you see this, use a "padding-top" (pt-5) or "padding-bottom" (pb-5) instead o
 * Cardo-italic - (regular 400 italic) (optional)
 
 ---
-###Site Images
+### Site Images
 * These images were taken directly from the site mockup document.  You'll have better quality images if you take them from the existing site, or it's original PSD archive.
 
 ---
@@ -122,6 +122,6 @@ Thanks,
 Paul Brady - paulbrady@hanleywood.com
 
 ---
-Copyright © 2016 Hanley Wood Media, Inc. All rights reserved
+Copyright © 2017 Hanley Wood Media, Inc. All rights reserved
 ©2017 Susanka Studios. All Rights Reserved.
 
